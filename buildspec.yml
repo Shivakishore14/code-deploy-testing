@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "test" > test.html
+  post_build:
+    commands:
+      - echo "test1" > test1.html
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
