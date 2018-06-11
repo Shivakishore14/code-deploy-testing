@@ -8,8 +8,6 @@ phases:
     commands:
       - echo "test1" > test1.html
 artifacts:
-  packaging:
-    - zip
   files:
     - '**/*'
   discard-paths: no
